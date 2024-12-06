@@ -5,7 +5,7 @@ import { FaHeartCirclePlus } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar fixed z-10 bg-opacity-25 bg-base-10 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -37,7 +37,7 @@ const Navbar = () => {
               <li><a>Item 3</a></li>
             </ul>
           </div>
-          <a className="text-xl">HellowSHOP</a>
+          <a className="text-xl text-blue-900 font-bold">HellowSHOP</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -52,15 +52,17 @@ const Navbar = () => {
               </div>
             </li>
             <li>
-            <MdOutlineShoppingCart />
+            <p className="text-white text-3xl"><MdOutlineShoppingCart /></p>
             </li>
-            <li><FaHeartCirclePlus /></li>
+            <li>
+             <p className="text-white text-3xl"><FaHeartCirclePlus /></p>
+            </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">
-            <CgProfile />
-          </a>
+          
+        <p className="text-white text-3xl"> <CgProfile /></p>
+          
         </div>
       </div>
     </div>
