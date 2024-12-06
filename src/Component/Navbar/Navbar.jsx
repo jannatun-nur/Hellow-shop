@@ -25,20 +25,34 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li><a>Item 1</a></li>
-              <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </li>
-              <li><a>Item 3</a></li>
+              className="menu menu-sm dropdown-content bg-blue-950 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+             <li>
+              <div className="">
+                <input
+                  type="text"
+                  placeholder="Search your need"
+                  className="input input-bordered bg-white border-blue-900 border-2 text-gray-800
+                  w-44"
+                />
+                
+              </div>
+            </li>
+         
+          <li>
+            <p className="text-white text-3xl"><MdOutlineShoppingCart /></p>
+            </li>
+            <li>
+             <p className="text-white text-3xl"><FaHeartCirclePlus /></p>
+            </li>
+         
+          
             </ul>
           </div>
-          <a className="text-xl text-blue-900 font-bold">HellowSHOP</a>
+          <a className="lg:text-xl text-xs  text-blue-900 font-bold">HellowSHOP</a>
         </div>
+
+
+
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
@@ -62,8 +76,10 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          
+        <div className="navbar-end block lg:hidden ">
+        <li>
+            <p className="text-3xl ml-28 text-blue-950 "> <CgProfile /></p>
+            </li>
         
           
         </div>
