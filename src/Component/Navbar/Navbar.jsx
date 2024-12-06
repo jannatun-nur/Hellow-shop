@@ -1,9 +1,10 @@
-
+import { CgProfile } from "react-icons/cg";
+import { TbSearch } from "react-icons/tb";
 
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-100 ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -34,11 +35,15 @@ const Navbar = () => {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="text-xl">HellowSHOP</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
+      <li>
+            <div>
+                <input> <span><TbSearch /></span> </input>
+            </div>
+      </li>
       <li>
         <details>
           <summary>Parent</summary>
@@ -52,7 +57,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+    <a className="btn"><CgProfile /></a>
   </div>
 </div>
         </div>

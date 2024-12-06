@@ -1,9 +1,11 @@
 import { Link } from "react-router";
 import './banner.css'
+import Navbar from "../Navbar/Navbar";
 
 const Banner = () => {
     return (
         <div>
+        <Navbar/>
            <div className="landing-page">
         <div className="flex">
           <div className="image-container left">
