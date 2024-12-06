@@ -1,6 +1,7 @@
 
 import Banner from './Component/Banner/Banner'
 import Arrival from './Component/Arrival/Arrival'
+import Category from './Component/Category/Category'
 function App() {
   
 
@@ -8,6 +9,7 @@ function App() {
     <>
     <Banner/>
     <Arrival/>
+    <Category/>
     </>
   )
 }
