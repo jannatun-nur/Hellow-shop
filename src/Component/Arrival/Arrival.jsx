@@ -22,7 +22,7 @@ const Arrival = () => {
 
     return (
         <div>
-            <h2>New Arrivals</h2>
+            <h2 className="lg:text-4xl lg:mt-12 lg:py-4 font-semibold text-blue-950 ml-3">New Arrivals</h2>
             <AliceCarousel
                 mouseTracking
                 items={items}
