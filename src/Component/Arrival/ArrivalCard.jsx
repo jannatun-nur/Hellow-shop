@@ -1,5 +1,7 @@
 
-const ArrivalCard = () => {
+const ArrivalCard = ({arrivals}) => {
+
+    const {name} = arrivals;
     return (
         <div>
             
