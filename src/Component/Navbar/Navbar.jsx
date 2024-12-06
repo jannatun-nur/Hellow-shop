@@ -46,7 +46,7 @@ const Navbar = () => {
                 <input
                   type="text"
                   placeholder="Search your need"
-                  className="input input-bordered"
+                  className="input input-bordered bg-white border-blue-900 border-2 text-gray-800"
                 />
                 
               </div>
@@ -57,11 +57,14 @@ const Navbar = () => {
             <li>
              <p className="text-white text-3xl"><FaHeartCirclePlus /></p>
             </li>
+            <li>
+            <p className="text-white text-3xl"> <CgProfile /></p>
+            </li>
           </ul>
         </div>
         <div className="navbar-end">
           
-        <p className="text-white text-3xl"> <CgProfile /></p>
+        
           
         </div>
       </div>
