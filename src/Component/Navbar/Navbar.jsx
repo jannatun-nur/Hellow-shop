@@ -48,7 +48,7 @@ const Navbar = () => {
           
             </ul>
           </div>
-          <a className="lg:text-xl text-xs  text-blue-900 font-bold">HellowSHOP</a>
+          <a className="lg:text-xl md:text-xl text-xs  text-blue-900 font-bold">HellowSHOP</a>
         </div>
 
 
