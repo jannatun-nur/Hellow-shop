@@ -2,7 +2,7 @@ const ArrivalCard = ({ arrivals }) => {
     const { name, price, button } = arrivals;
 
     return (
-        <div style={{ border: "1px solid #3939a3", padding: "10px", textAlign: "center"
+        <div style={{ boxShadow:"0px 4px 6px rgba(0, 0, 0, 0.7)", padding: "10px", textAlign: "center"
         , background: "white" }}>
             <h3 className="text-gray-800 font-semibold text-xl py-2">{name}</h3>
 
