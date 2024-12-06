@@ -19,7 +19,9 @@ const Banner = () => {
             right now do
             </p>
             <Link to="/addguestform">
-              <button className="discover-btn bg-gradient-to-r from-indigo-800 via-blue-600 to-blue-400 px-5 py-2 rounded-2xl text-white font-serif text-lg md:text-xl">
+              <button className="discover-btn
+               bg-gradient-to-r from-indigo-800 via-blue-600 to-blue-400 px-5 py-2 rounded-2xl
+                text-white font-serif text-lg md:text-xl ">
                 SIGN UP 
               </button>
             </Link>
