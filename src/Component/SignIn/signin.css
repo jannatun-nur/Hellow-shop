@@ -1,5 +1,5 @@
 /* Main Container */
-.signup-container {
+.signin-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,13 +10,13 @@
   }
   
   /* Left Form Container (Blue Background) */
-  .form-container {
-    background-color: #050555;
+  .form-containers {
+    background-color: #55053a;
     color: #ffffff;
     border-radius: 20px;
     padding: 30px 20px;
     width: 35%;
-    height: 65%;
+    height: 45%;
     position: relative;
     box-shadow: 0 4px 10px ;
     transform: rotate(-15deg); /* Slight tilt */
@@ -68,8 +68,8 @@
     color: black;
   }
   
-  .submit-button {
-    background-color: #050555;
+  .submit-buttons {
+    background-color: #55053a;
     color: #ffffff;
     border: none;
     border-radius: 8px;
@@ -81,9 +81,9 @@
     text-transform: uppercase;
   }
   
-  .submit-button:hover {
+  .submit-buttons:hover {
     background-color: white;
-    color: #050555;
+    color: #55053a;
   }
   
   /* Right Image Section */

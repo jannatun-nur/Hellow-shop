@@ -4,18 +4,18 @@ import signin from '../../../public/assets/images/signin (1).png'
 
 const Signin = () => {
     return (
-        <div className="signup-container">
+        <div className="signin-container">
         {/* Left-side form */}
-        <div className="form-container">
+        <div className="form-containers">
           <div className="form-content">
             <img src={bag} alt="Bag Icon" className="form-logo" />
             <form className="form">
-              <input type="text" placeholder="NAME" className="form-input" />
-              <input type="email" placeholder="EMAIL" className="form-input" />
-              <input type="tel" placeholder="NUMBER" className="form-input" />
-              <input type="text" placeholder="ADDRESS" className="form-input" />
-              <input type="url" placeholder="IMAGE URL" className="form-input" />
-              <button type="submit" className="submit-button">
+              <input type="text" placeholder="Name" className="form-input" />
+              <input type="email" placeholder="Email" className="form-input" />
+              <input type="password" placeholder="Password" className="form-input" />
+              
+              
+              <button type="submit" className="submit-buttons">
                 SUBMIT
               </button>
             </form>
