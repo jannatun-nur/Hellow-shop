@@ -1,4 +1,6 @@
-
+import bag from '../../../public/assets/images/bag.png'
+import signup from '../../../public/assets/images/signup.png'
+import './signup.css'
 
 const Signup = () => {
     return (
@@ -7,7 +9,7 @@ const Signup = () => {
       {/* Sidebar with form */}
       <div className="form-container">
         <img
-          src="https://via.placeholder.com/60"
+          src={bag}
           alt="logo"
           className="form-logo"
         />
@@ -24,7 +26,7 @@ const Signup = () => {
       {/* Right-side image and icons */}
       <div className="image-container">
         <img
-          src="https://via.placeholder.com/300x300"
+          src={signup}
           alt="illustration"
           className="illustration"
         />
