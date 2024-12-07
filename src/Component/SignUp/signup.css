@@ -13,15 +13,16 @@
     background-color: #2a2fdb;
     color: #ffffff;
     border-radius: 20px;
-    padding: 40px 30px;
-    width: 35%;
+    padding: 30px 10px;
+    width: 30%;
     position: relative;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transform: rotate(-45deg); /* Rotate the blue background */
+    transform: rotate(10deg); /* Rotate the blue background */
     transform-origin: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 50px;
   }
   
   /* Form Content (Upright Form Elements) */
