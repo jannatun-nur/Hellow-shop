@@ -1,4 +1,4 @@
-import React from "react";
+
 import bag from "../../../public/assets/images/bag.png";
 import signup from "../../../public/assets/images/signup.png";
 import "./signup.css";
