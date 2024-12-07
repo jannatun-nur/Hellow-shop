@@ -6,19 +6,19 @@
   height: 100vh;
   padding: 0 40px;
   background-color: #f8f8f8;
-  font-family: 'Arial', sans-serif;
+  
 }
 
 /* Left Form Container (Blue Background) */
 .form-container {
-  background-color: #2a2fdb;
+  background-color: #050555;
   color: #ffffff;
   border-radius: 20px;
   padding: 30px 20px;
   width: 35%;
   height: 65%;
   position: relative;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px ;
   transform: rotate(-15deg); /* Slight tilt */
   transform-origin: center;
   display: flex;
@@ -36,14 +36,15 @@
   align-items: center;
   gap: 15px;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 20px;
+  
 }
 
 .form-logo {
   position: absolute;
-  top: -80px;
-  left: calc(50% - 30px);
-  width: 70px;
+  top: -100px;
+  left: calc(40% - 30px);
+  width: 90px;
   height: auto;
 }
 
@@ -53,6 +54,7 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  
 }
 
 .form-input {
@@ -62,10 +64,12 @@
   border-radius: 8px;
   font-size: 14px;
   outline: none;
+  background-color: white;
+  color: black;
 }
 
 .submit-button {
-  background-color: #ff5722;
+  background-color: #050555;
   color: #ffffff;
   border: none;
   border-radius: 8px;
@@ -78,7 +82,8 @@
 }
 
 .submit-button:hover {
-  background-color: #e64a19;
+  background-color: white;
+  color: #050555;
 }
 
 /* Right Image Section */
