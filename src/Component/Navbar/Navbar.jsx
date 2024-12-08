@@ -2,7 +2,11 @@ import { CgProfile } from "react-icons/cg";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { FaHeartCirclePlus } from "react-icons/fa6";
 
+
 const Navbar = () => {
+
+
+
   return (
     <div>
       <div className="navbar fixed z-10 bg-opacity-25 bg-base-10 ">
@@ -39,7 +43,7 @@ const Navbar = () => {
             </li>
          
           <li>
-            <p className="text-white text-3xl"><MdOutlineShoppingCart /></p>
+            <button className="text-white text-3xl"><MdOutlineShoppingCart /></button>
             </li>
             <li>
              <p className="text-white text-3xl"><FaHeartCirclePlus /></p>

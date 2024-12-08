@@ -1,6 +1,9 @@
 const ArrivalCard = ({ arrivals }) => {
     const { name, price, button } = arrivals;
 
+
+    
+
     return (
         <div style={{ boxShadow:"0px 4px 6px rgba(0, 0, 0, 0.7)", padding: "10px", textAlign: "center"
         , background: "white" }}>
