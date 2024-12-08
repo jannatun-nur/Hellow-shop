@@ -1,4 +1,7 @@
 
+import { MdOutlineShoppingCart } from "react-icons/md";
+import { FaHeartCirclePlus } from "react-icons/fa6";
+
 
 const ShirtCard = ({shirts}) => {
    const {name , price, button} =shirts
@@ -21,6 +24,11 @@ const ShirtCard = ({shirts}) => {
               ))}
             
             <p className="text-gray-800 font-semibold text-xl py-4">${price}</p>
+
+            <div>
+                <button className="text-blue-700 text-4xl mr-5"><MdOutlineShoppingCart /></button>
+                <button className="text-pink-600 text-4xl mb-5"><FaHeartCirclePlus /></button>
+            </div>
             <button className="bg-blue-950 text-white
             px-5 py-3 font-bold rounded-ee-xl">{button}</button>
         </div>
