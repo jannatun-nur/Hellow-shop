@@ -1,12 +1,14 @@
+import { useEffect, useState } from "react";
+import CosCard from "./CosCard";
 
 
 const Cosmatic = () => {
-    const [device, setDevice] = useState([])
+    const [cosmo, setCosmo] = useState([])
 
     useEffect(()=>{
         fetch('shirt.json')
         .then(res => res.json())
-        .then(data => setDevice(data))
+        .then(data => setCosmo(data))
     },[])
     return (
         <div>
@@ -14,7 +16,7 @@ const Cosmatic = () => {
 
             <div className="grid grid-cols-1 md:grid-col-2 lg:grid-cols-3 gap-4 mx-4">
                 {
-                    device.map( devices=> <DeviceCard key={devices} devices={devices}></DeviceCard>)
+                    cosmo.map( cosmos=> <CosCard key={cosmos} cosmos={cosmos}></CosCard>)
                 }
             </div>
         </div>
