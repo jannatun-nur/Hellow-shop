@@ -27,10 +27,10 @@ const ShirtCard = ({shirts}) => {
 
             <div>
                 <button className="text-blue-700 text-4xl mr-5"><MdOutlineShoppingCart /></button>
-                <button className="text-pink-600 text-4xl mb-5"><FaHeartCirclePlus /></button>
+                <button className="text-red-600 text-4xl mb-5"><FaHeartCirclePlus /></button>
             </div>
             <button className="bg-blue-950 text-white
-            px-5 py-3 font-bold rounded-ee-xl">{button}</button>
+            px-5 py-3 font-bold rounded-ee-xl hover:bg-blue-900">{button}</button>
         </div>
         </div>
     );
