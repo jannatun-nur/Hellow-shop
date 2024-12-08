@@ -16,7 +16,7 @@ const Ladis = () => {
 
             <div className="grid grid-cols-1 md:grid-col-2 lg:grid-cols-3 gap-4 mx-4">
                 {
-                    ladis.map( shirts=> <LadisCard key={shirts} shirts={shirts}></LadisCard>)
+                    ladis.map( ladiss=> <LadisCard key={ladiss} ladiss={ladiss}></LadisCard>)
                 }
             </div>
         </div>
