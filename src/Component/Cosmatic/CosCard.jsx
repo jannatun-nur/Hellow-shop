@@ -3,6 +3,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 
 
 const CosCard = ({cosmos}) => {
+    
     const {name , price, button} = cosmos;
     return (
         <div>
